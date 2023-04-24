@@ -3,6 +3,7 @@ import React from "react";
 import Login from "./pages/auth/login";
 import ForgotPass from "./pages/auth/forgotPass";
 import ConfirmPassword from "./pages/auth/confirmPassword";
+import ProfileInfo from "./pages/auth/profileInfo/ProfileInfo";
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/ForgotPass" element={<ForgotPass />} />
         <Route path="/ConfirmPassword" element={<ConfirmPassword />} />
+        <Route path="/ProfileInfo" element={<ProfileInfo />} />
       </Routes>
     </div>
   );

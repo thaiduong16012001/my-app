@@ -19,7 +19,11 @@ function LoginLeft() {
       <Link to="/ForgotPass" className="forgotpass">
         Quên mật khẩu?
       </Link>
-      <button className="btn-login">Đăng nhập</button>
+      <button className="btn-login">
+        <Link to="/ProfileInfo" className="ProfileInfo">
+          Đăng nhập
+        </Link>
+      </button>
     </div>
   );
 }
