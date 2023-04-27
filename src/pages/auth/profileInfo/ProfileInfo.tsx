@@ -1,61 +1,27 @@
 import React from "react";
 import "./Profile.css";
+import Sidebar from "../../components/sidebar/Sidebar";
 import avt from "../../../assets/avt.png";
+import iconnoti from "./img/iconNoti.png";
+import camera from "./img/camera.png";
+import avtlittle from "./img/avtlittle.png";
+import Logging from "../../components/logging/Logging";
 
 const ProfileInfo = () => {
   return (
     <div className="app">
-      <div className="sidebar">
-        <div className="logo">
-          logo
-          <img src="/" alt="" />
-        </div>
-        <div className="menu">
-          <ul>
-            <li>
-              <div className="icon">icon</div>
-              <p>Dash board</p>
-            </li>
-            <li>
-              <div className="icon">icon</div>
-              <p>Thiết bị</p>
-            </li>
-            <li>
-              <div className="icon">icon</div>
-              <p>Dịch vụ</p>
-            </li>
-            <li>
-              <div className="icon">icon</div>
-              <p>Cấp số</p>
-            </li>
-            <li>
-              <div className="icon">icon</div>
-              <p>Báo cáo</p>
-            </li>
-            <li>
-              <div className="icon">icon</div>
-              <p>Cài đặt hệ thống</p>
-            </li>
-          </ul>
-        </div>
-        <div className="btn-logout">button đăng xuất</div>
-      </div>
+      <Sidebar></Sidebar>
       <div className="body">
-        <div className="body-top">
-          <div className="title">Thông tin cá nhân</div>
-          <div className="noti">chuông</div>
-          <div className="info-login">
-            <div className="avt">
-              <img src="" alt="" />
-            </div>
-            <div className="title-hello">Xin chào</div>
-            <div className="title-name">Lê Quỳnh Ái Vân</div>
-          </div>
-        </div>
+        <div className="body__titleinfo">Thông tin cá nhân</div>
+        {/* noti */}
+        {/* body info  */}
+        <Logging></Logging>
         <div className="body-mid">
           <div className="avatar">
             <img src={avt} alt="AVT ở đây nha" />
-            <div className="icon">icon camera</div>
+            <div className="icon-camera">
+              <img src={camera} alt="" />
+            </div>
             <h2>Lê Quỳnh Ái Vân</h2>
           </div>
           <div className="grid-container">

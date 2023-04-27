@@ -4,6 +4,7 @@ import Login from "./pages/auth/login";
 import ForgotPass from "./pages/auth/forgotPass";
 import ConfirmPassword from "./pages/auth/confirmPassword";
 import ProfileInfo from "./pages/auth/profileInfo/ProfileInfo";
+import RoleManage from "./pages/roleManagement/RoleManage";
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
         <Route path="/ForgotPass" element={<ForgotPass />} />
         <Route path="/ConfirmPassword" element={<ConfirmPassword />} />
         <Route path="/ProfileInfo" element={<ProfileInfo />} />
+        <Route path="/RoleManage" element={<RoleManage />} />
       </Routes>
     </div>
   );
