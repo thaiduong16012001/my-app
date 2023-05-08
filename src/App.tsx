@@ -8,7 +8,7 @@ import RoleManage from "./pages/roleManagement/RoleManage";
 function App() {
   return (
     <div className="App">
-      <nav>
+      {/* <nav>
         <ul>
           <li>
             <Link to="/Login"></Link>
@@ -17,7 +17,7 @@ function App() {
             <Link to="/ForgotPass"> </Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
 
       <Routes>
         <Route path="/" element={<Navigate to="/Login" />} />
