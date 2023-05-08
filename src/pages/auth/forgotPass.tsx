@@ -8,7 +8,7 @@ const ForgotPass = () => {
       <div className="login-left">
         <img className="logoAlta" src={logo_Alta} alt="logo" />
         <div className="login-form">
-          <h1 className="title">
+          <h1 className="titlee">
             Vui lòng nhập email để đặt lại mật khẩu của bạn *
           </h1>
           <input className="form-input" type="text" placeholder="Nhập email" />

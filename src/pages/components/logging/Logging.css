@@ -1,0 +1,11 @@
+.body {
+  position: relative;
+}
+.body__noti {
+  position: absolute;
+}
+.title {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}

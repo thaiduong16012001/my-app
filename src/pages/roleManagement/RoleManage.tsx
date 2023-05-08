@@ -9,32 +9,37 @@ function RoleManage() {
     <div className="app">
       <Sidebar></Sidebar>
       <Logging></Logging>
-      {/* <div className="header">
-        <div className="setting">Cài đặt hệ thống</div>
-      </div>
-      <div className="bodyy">
-        <p>Danh sách vai trò</p>
-        <div className="find">
-          <p>Từ khóa</p>
-          <div className="find__input">
-            <form>
-              <input
-                value="Nhập từ khóa"
-                type="search"
-                id="gsearch"
-                name="gsearch"
-              />
-            </form>
+
+      <div className="table">
+        <div className="table_top">
+          <p className="list">Danh sách vai trò</p>
+          <div className="find">
+            <p className="keyword">Từ khóa</p>
+            <div className="find__input">
+              <form>
+                <input
+                  className="input"
+                  value="Nhập từ khóa"
+                  type="search"
+                  id="gsearch"
+                  name="gsearch"
+                />
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="table">
+
+        <div className="addrole">
+          <p className="add">+</p>
+          <p className="namerole">Thêm vai trò</p>
+        </div>
+
         <table>
           <tr>
-            <th>Tên vai trò</th>
-            <th>Số người</th>
-            <th>Mô tả</th>
-            <th></th>
+            <th className="name__column">Tên vai trò</th>
+            <th className="name__column">Số người</th>
+            <th className="name__column">Mô tả</th>
+            <th className="name__column"></th>
           </tr>
           <tr>
             <td>Kế toán</td>
@@ -73,7 +78,7 @@ function RoleManage() {
             <td>Cập nhật</td>
           </tr>
         </table>
-      </div> */}
+      </div>
     </div>
   );
 }

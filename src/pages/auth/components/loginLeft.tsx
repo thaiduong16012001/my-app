@@ -10,9 +10,9 @@ function LoginLeft() {
     <div className="login-left">
       <img className="logoAlta" src={logo_Alta} alt="logo" />
       <div className="login-form">
-        <h1 className="title">Tên đăng nhập *</h1>
-        <input className="form-input" type="text" placeholder="Username" />
-        <h1 className="title">Mật khẩu *</h1>
+        <h1 className="titlee">Tên đăng nhập *</h1>
+        <input className="form-input" type="text" placeholder="Usernamee" />
+        <h1 className="titlee">Mật khẩu *</h1>
         <input className="form-input" type="password" placeholder="Password" />
         {/* <FontAwesomeIcon icon={faEyeSlash} /> */}
       </div>

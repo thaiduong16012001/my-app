@@ -9,13 +9,13 @@ const ConfirmPassword = () => {
       <div className="login-left">
         <img className="logoAlta" src={logo_Alta} alt="logo" />
         <div className="login-form">
-          <h1 className="title">Mật khẩu </h1>
+          <h1 className="titlee">Mật khẩu </h1>
           <input
             className="form-input"
             type="password"
             placeholder="Password"
           />
-          <h1 className="title">Nhập lại mật khẩu </h1>
+          <h1 className="titlee">Nhập lại mật khẩu </h1>
           <input
             className="form-input"
             type="password"
