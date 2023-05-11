@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import "../auth//profileInfo/Profile.css";
 import "./RoleManage.css";
 import Sidebar from "../components/sidebar/Sidebar";
@@ -9,7 +10,6 @@ function RoleManage() {
     <div className="app">
       <Sidebar></Sidebar>
       <Logging></Logging>
-
       <div className="table">
         <div className="table_top">
           <p className="list">Danh sách vai trò</p>
@@ -17,20 +17,18 @@ function RoleManage() {
             <p className="keyword">Từ khóa</p>
             <div className="find__input">
               <form>
-                <input
-                  className="input"
-                  value="Nhập từ khóa"
-                  type="search"
-                  id="gsearch"
-                  name="gsearch"
-                />
+                <input className="input" value="Nhập từ khóa" type="search" />
               </form>
             </div>
           </div>
         </div>
 
         <div className="addrole">
-          <p className="add">+</p>
+          <p className="add">
+            <Link to="/Addrole" className="forgotpass">
+              +
+            </Link>
+          </p>
           <p className="namerole">Thêm vai trò</p>
         </div>
 
