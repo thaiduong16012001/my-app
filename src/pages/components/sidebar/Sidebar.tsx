@@ -48,7 +48,11 @@ function Sidebar() {
             <div className="sidebar__icon">
               <img src={report} alt="" />
             </div>
-            <p className="sidebar__title">Báo cáo</p>
+            <p className="sidebar__title">
+            
+            <Link to="/Report" className="btn-loginn">
+            Báo cáo
+          </Link></p>
           </li>
           <li>
             <div className="sidebar__icon--left">

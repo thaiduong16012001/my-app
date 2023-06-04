@@ -7,6 +7,10 @@ import ProfileInfo from "./pages/auth/profileInfo/ProfileInfo";
 import RoleManage from "./pages/roleManagement/RoleManage";
 import Addrole from "./pages/roleManagement/Addrole";
 import Userlog from "./pages/userLog/Userlog";
+import Listacc from "./pages/userManagement/Listacc";
+import Addacc from "./pages/userManagement/Addacc";
+import Report from "./pages/report/Report";
+
 function App() {
   return (
     <div className="App">
@@ -30,6 +34,9 @@ function App() {
         <Route path="/RoleManage" element={<RoleManage />} />
         <Route path="/Addrole" element={<Addrole />} />
         <Route path="/Userlog" element={<Userlog />} />
+        <Route path="/Listacc" element={<Listacc />} />
+        <Route path="/Addacc" element={<Addacc />} />
+        <Route path="/Report" element={<Report />} />
       </Routes>
     </div>
   );
