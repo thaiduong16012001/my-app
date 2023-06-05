@@ -12,7 +12,7 @@ function Report() {
       <Logging></Logging>
       <div className="table">
         <div className="table_top">
-          <p className="list">Danh sách tài khoản</p>
+          <p className="list">Danh sách tài khoảnn</p>
           <div className="find">
             <p className="keyword">Từ khóa</p>
             <div className="find__input">
@@ -46,7 +46,6 @@ function Report() {
             <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
             <td>Cập nhật</td>
             <td>Vai trò</td>
-
           </tr>
           <tr>
             <td>Bác sĩ</td>
@@ -54,7 +53,6 @@ function Report() {
             <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
             <td>Cập nhật</td>
             <td>Vai trò</td>
-
           </tr>
           <tr>
             <td>Lễ tân</td>
@@ -62,7 +60,6 @@ function Report() {
             <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
             <td>Cập nhật</td>
             <td>Vai trò</td>
-
           </tr>
           <tr>
             <td>Quản lý</td>
@@ -70,7 +67,6 @@ function Report() {
             <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
             <td>Cập nhật</td>
             <td>Vai trò</td>
- 
           </tr>
           <tr>
             <td>Admin</td>
@@ -78,7 +74,6 @@ function Report() {
             <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
             <td>Cập nhật</td>
             <td>Vai trò</td>
-
           </tr>
           <tr>
             <td>Super Amin</td>
@@ -86,7 +81,6 @@ function Report() {
             <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
             <td>Cập nhật</td>
             <td>Vai trò</td>
- 
           </tr>
           <tr>
             <td>Super Amin</td>
@@ -94,7 +88,6 @@ function Report() {
             <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
             <td>Cập nhật</td>
             <td>Vai trò</td>
-
           </tr>
           <tr>
             <td>Super Amin</td>
@@ -102,9 +95,7 @@ function Report() {
             <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
             <td>Cập nhật</td>
             <td>Vai trò</td>
-
           </tr>
-
         </table>
       </div>
     </div>
