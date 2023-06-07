@@ -10,6 +10,11 @@ import Userlog from "./pages/userLog/Userlog";
 import Listacc from "./pages/userManagement/Listacc";
 import Addacc from "./pages/userManagement/Addacc";
 import Report from "./pages/report/Report";
+import ManagerNum from "./pages/ornumber/ManagerNum";
+import NewNumber from "./pages/ornumber/NewNumber";
+import DashboardDay from "./pages/dashboard/DashboardDay";
+import DashboardWeek from "./pages/dashboard/DashboardWeek";
+import DashboardMonth from "./pages/dashboard/DashboardMonth";
 
 function App() {
   return (
@@ -37,6 +42,11 @@ function App() {
         <Route path="/Listacc" element={<Listacc />} />
         <Route path="/Addacc" element={<Addacc />} />
         <Route path="/Report" element={<Report />} />
+        <Route path="/ManagerNum" element={<ManagerNum />} />
+        <Route path="/NewNumber" element={<NewNumber />} />
+        <Route path="/DashboarDay" element={<DashboardDay />} />
+        <Route path="/DashboarWeek" element={<DashboardWeek />} />
+        <Route path="/DashboarMonth" element={<DashboardMonth />} />
       </Routes>
     </div>
   );
