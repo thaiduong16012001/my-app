@@ -1,0 +1,26 @@
+.dbright {
+  position: absolute;
+  width: 401px;
+  height: 810px;
+  left: 1039px;
+  top: 0px;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
+  border-radius: 8px 0px 0px 8px;
+}
+.img_stt {
+  display: flex;
+  flex-direction: row;
+}
+.img_stt img {
+  width: 195px;
+  height: 140px;
+  border-radius: 10px;
+  margin: 0 8px 0 -10px;
+}
+.dashboard {
+  width: 66%;
+  margin: 0 0 -30px -15px;
+  background: #ffffff;
+  border-radius: 12px;
+}

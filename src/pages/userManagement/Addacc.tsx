@@ -15,69 +15,71 @@ function Addacc() {
         </div>
         <div className="table_body">
           <p className="table_body--title">Thông tin TK</p>
-          <div className="grid-container">
-  <div className="grid-item">
-  <p className="name_title">Họ tên * </p>
-                <input
-                  className="form-input inputt"
-                  type="text"
-                  placeholder="Nhập tên vai trò"
-                />
-  </div>
-  <div className="grid-item">
-  <p className="name_title">Tên đăng nhập * </p>
-                <input
-                  className="form-input inputt"
-                  type="text"
-                  placeholder="Nhập tên vai trò"
-                />
-  </div>
-  <div className="grid-item">
-  <p className="name_title">SĐT * </p>
-                <input
-                  className="form-input inputt"
-                  type="text"
-                  placeholder="Nhập tên vai trò"
-                /></div>  
-  <div className="grid-item">
-  <p className="name_title">MK * </p>
-                <input
-                  className="form-input inputt"
-                  type="text"
-                  placeholder="Nhập tên vai trò"
-                />
-  </div>
-  <div className="grid-item">
-  <p className="name_title">Mail * </p>
-                <input
-                  className="form-input inputt"
-                  type="text"
-                  placeholder="Nhập tên vai trò"
-                />
-  </div>
-  <div className="grid-item">
-  <p className="name_title">Nhập lại mk * </p>
-                <input
-                  className="form-input inputt"
-                  type="text"
-                  placeholder="Nhập tên vai trò"
-                /></div>  
-  <div className="grid-item">
-  <p className="name_title">vai trò * </p>
-                <input
-                  className="form-input inputt"
-                  type="text"
-                  placeholder="Nhập tên vai trò"
-                />
-  </div>
-  <div className="grid-item">
-  <p className="name_title">Tình trạng * </p>
-                <input
-                  className="form-input inputt"
-                  type="text"
-                  placeholder="Nhập tên vai trò"
-                />
-  </div>
+          <div className="grid-containerr">
+            <div className="grid-itemm">
+              <p className="name_title">Họ tên* </p>
+              <input
+                className="form-input inputt"
+                type="text"
+                placeholder="Nhập tên vai trò"
+              />
+            </div>
+            <div className="grid-itemm">
+              <p className="name_title">Tên đăng nhập* </p>
+              <input
+                className="form-input inputt"
+                type="text"
+                placeholder="Nhập tên vai trò"
+              />
+            </div>
+            <div className="grid-itemm">
+              <p className="name_title">SĐT* </p>
+              <input
+                className="form-input inputt"
+                type="text"
+                placeholder="Nhập tên vai trò"
+              />
+            </div>
+            <div className="grid-itemm">
+              <p className="name_title">MK* </p>
+              <input
+                className="form-input inputt"
+                type="text"
+                placeholder="Nhập tên vai trò"
+              />
+            </div>
+            <div className="grid-itemm">
+              <p className="name_title">Mail* </p>
+              <input
+                className="form-input inputt"
+                type="text"
+                placeholder="Nhập tên vai trò"
+              />
+            </div>
+            <div className="grid-itemm">
+              <p className="name_title">Nhập lại mk* </p>
+              <input
+                className="form-input inputt"
+                type="text"
+                placeholder="Nhập tên vai trò"
+              />
+            </div>
+            <div className="grid-itemm">
+              <p className="name_title">Vai trò* </p>
+              <input
+                className="form-input inputt"
+                type="text"
+                placeholder="Nhập tên vai trò"
+              />
+            </div>
+            <div className="grid-itemm">
+              <p className="name_title">Tình trạng* </p>
+              <input
+                className="form-input inputt"
+                type="text"
+                placeholder="Nhập tên vai trò"
+              />
+            </div>
           </div>
         </div>
         <div className="body_button">

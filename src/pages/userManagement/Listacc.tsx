@@ -63,7 +63,7 @@ function Listacc() {
           <tr>
             <td>Lễ tân</td>
             <td>6</td>
-            <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
+            <td>Thực hiện nhiệm vụ về thốn kê số liệu và tổng hợp số liệu</td>
             <td>Cập nhật</td>
             <td>Vai trò</td>
             <td>hđ</td>
@@ -114,7 +114,6 @@ function Listacc() {
             <td>hđ</td>
             <td>cập nhật</td>
           </tr>
-
         </table>
       </div>
     </div>
