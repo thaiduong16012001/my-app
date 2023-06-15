@@ -21,8 +21,8 @@ function DashboardWeek() {
     <div className="app">
       <Sidebar></Sidebar>
       <div className="table tablee">
-        <p>Dashboard</p>
-        <p>Biểu đồ cấp số tuần</p>
+        <p className="title_dashboard">Dashboard</p>
+        <p className="number">Biểu đồ cấp số</p>
         <div className="img_stt">
           <img src={stt1} alt="" />
           <img src={stt2} alt="" />

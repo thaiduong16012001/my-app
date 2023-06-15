@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Sidebar from "../components/sidebar/Sidebar";
 import Logging from "../components/logging/Logging";
 import "./Dashboard.css";
@@ -15,6 +16,8 @@ import stt4 from "./image/stt4.png";
 import per1 from "./image/per1.png";
 import per2 from "./image/per2.png";
 import per3 from "./image/per3.png";
+import avtlittle from "./image/avtlittle.png";
+import iconNoti from "./image/iconNoti.png";
 
 function DashboardDay() {
   return (
@@ -22,8 +25,8 @@ function DashboardDay() {
       <Sidebar></Sidebar>
 
       <div className="table tablee">
-        <p>Dashboard</p>
-        <p>Biểu đồ cấp số ngày</p>
+        <p className="title_dashboard">Dashboard</p>
+        <p className="number">Biểu đồ cấp số</p>
         <div className="img_stt">
           <img src={stt1} alt="" />
           <img src={stt2} alt="" />
@@ -31,11 +34,33 @@ function DashboardDay() {
           <img src={stt4} alt="" />
         </div>
         <div className="dashboard">
+          {/* <div className="dropdownn">
+            Xem theo
+            <button className="dropbtn">Ngày ▼</button>
+            <div className="dropdown-content">
+              <Link to="/DashboarDay" className="chose">
+                Ngày
+              </Link>
+              <Link to="/DashboarWeek" className="chose">
+                Tuần
+              </Link>
+              <Link to="/DashboarDay" className="chose">
+                Tháng
+              </Link>
+            </div>
+          </div> */}
           <img src={day} alt="" />
         </div>
       </div>
       <div className="dbright">
-        <div className="logingg">loggin</div>
+        <div className="logingg">
+          <img src={iconNoti} alt="" />
+          <img src={avtlittle} alt="" />
+          <div className="titleee">
+            <p>Xin chào</p>
+            <p>Lê Quỳnh Ái Vân</p>
+          </div>
+        </div>
         <p>tổng quan</p>
         <img src={per1} alt="" />
         <img src={per2} alt="" />
