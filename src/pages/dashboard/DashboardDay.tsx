@@ -35,7 +35,7 @@ function DashboardDay() {
         </div>
         <div className="dashboard">
           {/* <div className="dropdownn">
-            Xem theo
+            Xem theoo
             <button className="dropbtn">Ngày ▼</button>
             <div className="dropdown-content">
               <Link to="/DashboarDay" className="chose">
