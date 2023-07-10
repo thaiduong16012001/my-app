@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import "../auth//profileInfo/Profile.css";
-import "./NewNumber.css";
+// import "./NewNumber.css";
 import Sidebar from "../components/sidebar/Sidebar";
 import Logging from "../components/logging/Logging";
 

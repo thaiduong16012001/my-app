@@ -1,0 +1,70 @@
+.ant-modal-content {
+  padding: 0 !important;
+}
+.ant-modal-content {
+  overflow: hidden !important;
+}
+.ant-btn{
+  background-color: #ff7506;
+}
+.boxModal {
+  .HeaderModal {
+    padding-top: 20px;
+    .SttCsstitLe {
+      //styleName: 32/32 Bold;
+      font-family: Nunito;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #535261;
+      text-align: center;
+    }
+    .SttCssContent {
+      font-family: Nunito;
+      font-size: 56px;
+      font-weight: 800;
+      line-height: 60px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ff7506;
+      text-align: center;
+    }
+    .DVcss {
+      font-family: Nunito;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #282739;
+      text-align: center;
+    }
+    div {
+      margin: 15px 0;
+    }
+  }
+}
+.footer {
+  width: 100%;
+  background-color: #ff9138;
+  height: 100px;
+  
+  div {
+    //styleName: 22/22 Bold;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    text-align: center;
+    
+  }
+  & div:first-child{
+   padding-top: 18px;
+  
+  }
+}

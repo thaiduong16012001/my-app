@@ -3,8 +3,10 @@ import "../../auth/profileInfo/Profile.css";
 import iconnoti from "./images/iconNoti.png";
 import avtlittle from "./images/avtlittle.png";
 import "./Logging.css";
+import { useAppSelector } from "../../../redux/app/hook";
 
-function Logging() {
+const Logging:React.FC = ()=> {
+  const fullName = useAppSelector(state=>state.LoginReducer.User.fullname)
   return (
     <div className="body">
       {/* <div className="title">
@@ -21,7 +23,7 @@ function Logging() {
 
         <div className="body__avt-right">
           <div className="body__titlehello">Xin chào</div>
-          <div className="body__name">Lê Quỳnh Ái Vân</div>
+          <div className="body__name">{fullName}</div>
         </div>
       </div>
     </div>

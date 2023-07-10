@@ -1,0 +1,14 @@
+.CssAcion {
+  text-decoration: underline;
+  color: blue;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+}
+.box-table {
+  .ant-table-thead > tr > th {
+    background-color: #ff9138;
+    color: white;
+  }
+}

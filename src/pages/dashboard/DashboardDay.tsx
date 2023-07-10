@@ -18,8 +18,10 @@ import per2 from "./image/per2.png";
 import per3 from "./image/per3.png";
 import avtlittle from "./image/avtlittle.png";
 import iconNoti from "./image/iconNoti.png";
+import {useAppSelector} from"../../redux/app/hook"
 
 function DashboardDay() {
+  const fullname = useAppSelector(state=>state.LoginReducer.User.fullname)
   return (
     <div className="app">
       <Sidebar></Sidebar>
@@ -34,9 +36,9 @@ function DashboardDay() {
           <img src={stt4} alt="" />
         </div>
         <div className="dashboard">
-          {/* <div className="dropdownn"> hahaa
+          {/* <div className="dropdownn">
             Xem theoo
-            <button className="dropbtn">Ngày ▼</button>>
+            <button className="dropbtn">Ngày ▼</button>
             <div className="dropdown-content">
               <Link to="/DashboarDay" className="chose">
                 Ngày
@@ -54,11 +56,11 @@ function DashboardDay() {
       </div>
       <div className="dbright">
         <div className="logingg">
-          <img src={iconNoti} alt="" />
-          <img src={avtlittle} alt="" />
-          <div className="titleee">
+          <img src={iconNoti} alt="" style={{width:"30px", height:"30px",marginRight:"5px"}} />
+          <img src={avtlittle} alt="" style={{marginRight:"5px"}} />
+          <div className="titleee" >
             <p>Xin chào</p>
-            <p>Lê Quỳnh Ái Vân</p>
+            <p>{fullname }</p>
           </div>
         </div>
         <p>tổng quan</p>

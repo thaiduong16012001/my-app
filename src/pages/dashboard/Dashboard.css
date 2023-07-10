@@ -35,7 +35,7 @@
 /* .table_dashboard {
   position: relative;
 } */
-//////////////////// dropdown ////////////////
+
 .dropdownn {
   /* display: inline-block;
   position: relative;
@@ -74,6 +74,11 @@
 } */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.logingg{
+  display: flex;
+  padding: 15px ;
+  align-items: center;
 }
 .title_dashboard {
   width: 102px;
