@@ -24,7 +24,11 @@ function Sidebar() {
             <div className="sidebar__icon">
               <img src={dashboard} alt="" />
             </div>
-            <p className="sidebar__title">Dashboard</p>
+            <p className="sidebar__title">
+              <Link to="/DashboarDay" className="btn-loginn">
+                Dashboard
+              </Link>
+            </p>
           </li>
           <li>
             <div className="sidebar__icon">
@@ -42,13 +46,21 @@ function Sidebar() {
             <div className="sidebar__icon">
               <img src={ordinal_number} alt="" />
             </div>
-            <p className="sidebar__title">Cấp số</p>
+            <p className="sidebar__title">
+              <Link to="/ManagerNum" className="btn-loginn">
+                Cấp số
+              </Link>
+            </p>
           </li>
           <li>
             <div className="sidebar__icon">
               <img src={report} alt="" />
             </div>
-            <p className="sidebar__title">Báo cáo</p>
+            <p className="sidebar__title">
+              <Link to="/Report" className="btn-loginn">
+                Báo cáo
+              </Link>
+            </p>
           </li>
           <li>
             <div className="sidebar__icon--left">
